@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart:Chart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:chart="http://g5.1c.ru/v8/dt/chart/model" xmlns:core="http://g5.1c.ru/v8/dt/mcore">
+  <seriesCurId>123</seriesCurId>
+  <pointsCurId>8</pointsCurId>
+  <isSeriesDesign>true</isSeriesDesign>
+  <realExSeriesData>
+    <properties>
+      <id>1</id>
+      <valInfo xsi:type="core:UndefinedValue"/>
+      <line>
+        <width>1</width>
+        <style>Solid</style>
+      </line>
+      <marker>Rhomb</marker>
+      <text>
+        <key>#</key>
+        <value>Сводная</value>
+      </text>
+      <key xsi:type="core:UndefinedValue"/>
+    </properties>
+  </realExSeriesData>
+  <isPointsDesign>true</isPointsDesign>
+  <curSeries>-1</curSeries>
+  <chartType>NormalizedColumn</chartType>
+  <labelsDelimiter>, </labelsDelimiter>
+  <labelsColor xsi:type="core:ColorRef">
+    <color>Style.FormTextColor</color>
+  </labelsColor>
+  <transparentLabelsBkg>true</transparentLabelsBkg>
+  <labelsBorder xsi:type="core:BorderDef">
+    <width>1</width>
+  </labelsBorder>
+  <ttlBorder xsi:type="core:BorderDef"/>
+  <ttlBorderColor xsi:type="core:ColorRef">
+    <color>Style.BorderColor</color>
+  </ttlBorderColor>
+  <lgBorder xsi:type="core:BorderDef"/>
+  <lgBorderColor xsi:type="core:ColorRef">
+    <color>Style.BorderColor</color>
+  </lgBorderColor>
+  <chBorder xsi:type="core:BorderDef"/>
+  <chBorderColor xsi:type="core:ColorRef">
+    <color>Style.BorderColor</color>
+  </chBorderColor>
+  <transparent>true</transparent>
+  <bkgColor xsi:type="core:ColorRef">
+    <color>Style.FieldBackColor</color>
+  </bkgColor>
+  <ttlColor xsi:type="core:ColorRef">
+    <color>Style.FieldBackColor</color>
+  </ttlColor>
+  <legColor xsi:type="core:ColorRef">
+    <color>Style.FieldBackColor</color>
+  </legColor>
+  <isTrnspCh>true</isTrnspCh>
+  <chColor xsi:type="core:ColorRef">
+    <color>Style.FieldBackColor</color>
+  </chColor>
+  <ttlTxtColor xsi:type="core:ColorRef">
+    <color>Style.FormTextColor</color>
+  </ttlTxtColor>
+  <legTxtColor xsi:type="core:ColorRef">
+    <color>Style.FormTextColor</color>
+  </legTxtColor>
+  <chTxtColor xsi:type="core:ColorRef">
+    <color>Style.FormTextColor</color>
+  </chTxtColor>
+  <ttlFont xsi:type="core:FontRef">
+    <font>Style.TextFont</font>
+  </ttlFont>
+  <legFont xsi:type="core:FontRef">
+    <font>Style.TextFont</font>
+  </legFont>
+  <chFont xsi:type="core:FontRef">
+    <font>Style.TextFont</font>
+  </chFont>
+  <isShowScaleVL>true</isShowScaleVL>
+  <isShowSeriesScale>true</isShowSeriesScale>
+  <isShowPointsScale>true</isShowPointsScale>
+  <isShowValuesScale>true</isShowValuesScale>
+  <xLabelsOrientation>Auto</xLabelsOrientation>
+  <scaleLine>
+    <width>1</width>
+    <style>Solid</style>
+  </scaleLine>
+  <scaleColor xsi:type="core:ColorDef">
+    <red>169</red>
+    <green>169</green>
+    <blue>169</blue>
+  </scaleColor>
+  <isAutoSeriesName>true</isAutoSeriesName>
+  <isAutoPointName>true</isAutoPointName>
+  <maxSeries>4</maxSeries>
+  <maxSeriesPrc>30</maxSeriesPrc>
+  <baseVal>0</baseVal>
+  <isLight>true</isLight>
+  <dtVerLines>true</dtVerLines>
+  <dtHorLines>true</dtHorLines>
+  <dtHAlign>Right</dtHAlign>
+  <dtKeys>true</dtKeys>
+  <paletteKind>Palette32</paletteKind>
+  <surfaceColor xsi:type="core:ColorDef">
+    <red>169</red>
+  </surfaceColor>
+  <gaugeQualityBands/>
+  <endGaugeAngle>180</endGaugeAngle>
+  <gaugeThickness>5</gaugeThickness>
+  <gaugeLabelsLocation>InsideScale</gaugeLabelsLocation>
+  <gaugeBushThickness>4</gaugeBushThickness>
+  <gaugeBushColor xsi:type="core:ColorDef">
+    <red>169</red>
+    <green>169</green>
+    <blue>169</blue>
+  </gaugeBushColor>
+  <autoMaxValue>true</autoMaxValue>
+  <autoMinValue>true</autoMinValue>
+  <titleIsInit>true</titleIsInit>
+  <legendIsInit>true</legendIsInit>
+  <chartIsInit>true</chartIsInit>
+  <elementsChart/>
+  <elementsLegend>
+    <left>0.832802547770701</left>
+    <top>0.0405982905982906</top>
+  </elementsLegend>
+  <elementsTitle>
+    <left>0.832802547770701</left>
+    <bottom>0.959401709401709</bottom>
+  </elementsTitle>
+  <borderColor xsi:type="core:ColorRef">
+    <color>Style.BorderColor</color>
+  </borderColor>
+  <border xsi:type="core:BorderDef">
+    <width>1</width>
+  </border>
+  <splineStrain>95</splineStrain>
+  <translucenceMode>Auto</translucenceMode>
+  <funnelNeckHeightPercent>10.0</funnelNeckHeightPercent>
+  <funnelNeckWidthPercent>10.0</funnelNeckWidthPercent>
+  <funnelGapSumPercent>3.0</funnelGapSumPercent>
+  <multiStageLinkLine>
+    <width>1</width>
+    <style>Solid</style>
+  </multiStageLinkLine>
+  <multiStageLinkColor xsi:type="core:ColorDef"/>
+  <animation>DontUse</animation>
+  <rebuildTime>1255198</rebuildTime>
+  <valuesAxis>
+    <interval>
+      <leftIsNum>true</leftIsNum>
+      <rightIsNum>true</rightIsNum>
+    </interval>
+  </valuesAxis>
+  <pointsAxis>
+    <interval>
+      <leftIsNum>true</leftIsNum>
+      <rightIsNum>true</rightIsNum>
+    </interval>
+  </pointsAxis>
+  <bubbleSizeValueSource>NextSeries</bubbleSizeValueSource>
+  <bubbleSizeCommonSeries>-2</bubbleSizeCommonSeries>
+  <bubbleSizing>IncreaseArea</bubbleSizing>
+  <pointsScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <gridLine>
+      <width>1</width>
+    </gridLine>
+    <labelOrientation>Auto</labelOrientation>
+    <scaleLine>
+      <width>1</width>
+    </scaleLine>
+  </pointsScale>
+  <valuesScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <gridLine>
+      <width>1</width>
+    </gridLine>
+    <labelOrientation>Auto</labelOrientation>
+    <scaleLine>
+      <width>1</width>
+    </scaleLine>
+  </valuesScale>
+  <seriesScale>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <gridLine>
+      <width>1</width>
+    </gridLine>
+    <labelOrientation>Auto</labelOrientation>
+    <scaleLine>
+      <width>1</width>
+    </scaleLine>
+  </seriesScale>
+  <trendLinesArray>
+    <seriesId>1</seriesId>
+  </trendLinesArray>
+  <colorPaletteDescription>
+    <colorPalette>Palette32</colorPalette>
+  </colorPaletteDescription>
+  <referenceBandsColorPaletteDescription>
+    <colorPalette>Palette32</colorPalette>
+  </referenceBandsColorPaletteDescription>
+  <valuesReferenceLines/>
+  <pointsReferenceLines/>
+  <valuesReferenceBands/>
+  <pointsReferenceBands/>
+  <pointConnectionAcrossSkippedValues>ConnectUnskippedValues</pointConnectionAcrossSkippedValues>
+  <legendPlacement>None</legendPlacement>
+  <plotAreaPlacement>EmptySpace</plotAreaPlacement>
+  <titleAreaPlacement>None</titleAreaPlacement>
+  <additionalValuesScale>
+    <showTitle>DontShow</showTitle>
+    <titleArea>
+      <location>Auto</location>
+      <transparent>true</transparent>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+      <marker>Auto</marker>
+      <orientation>Auto</orientation>
+    </titleArea>
+    <titlePlacement>SpecialArea</titlePlacement>
+    <gridLinesShowMode>DontShow</gridLinesShowMode>
+    <scaleLabelLocation>None</scaleLabelLocation>
+    <labelOrientation>Auto</labelOrientation>
+    <showInChart>DontShow</showInChart>
+  </additionalValuesScale>
+  <additionalValuesAxis>
+    <interval>
+      <leftIsNum>true</leftIsNum>
+      <rightIsNum>true</rightIsNum>
+    </interval>
+  </additionalValuesAxis>
+</chart:Chart>

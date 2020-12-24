@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1362a2d0-c7fe-422d-ba06-cd60330e35af">
+  <producedTypes>
+    <objectType typeId="600beac1-01d4-4701-bade-b2fd623bf258" valueTypeId="5359eda7-95cd-44f2-8c60-c21f0e121997"/>
+    <managerType typeId="80f1db01-3b54-4f5f-8f19-c099f5b68854" valueTypeId="694d813f-205a-407f-98fc-cd0f7f1c3653"/>
+  </producedTypes>
+  <name>БНСП_ПреобразованиеЦветов</name>
+  <synonym>
+    <key>ru</key>
+    <value>БНСП преобразование цветов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БНСП_ПреобразованиеЦветов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="6b2fa469-7430-479e-a328-a577ddc07c38">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

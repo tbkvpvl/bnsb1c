@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ada62000-3ce3-4925-bcf1-aeda841b1f8d">
+  <name>БНСП_ОбщМетодыКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие методы клиент (БНСП)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

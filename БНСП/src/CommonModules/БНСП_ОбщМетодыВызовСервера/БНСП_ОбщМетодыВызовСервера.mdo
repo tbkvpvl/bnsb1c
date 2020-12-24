@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="167b1c08-cd0a-4aec-ba5b-f02523197fbf">
+  <name>БНСП_ОбщМетодыВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие методы вызов сервера (БНСП)</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

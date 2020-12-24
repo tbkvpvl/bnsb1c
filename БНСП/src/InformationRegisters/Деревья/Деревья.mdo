@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ae19674-097c-47e1-ab74-b3394bf1c89f">
+  <producedTypes>
+    <selectionType typeId="89c2ec8b-990b-4eae-a878-158125c69f91" valueTypeId="e5f4280e-87cc-4a30-98f1-aeb83ced1eae"/>
+    <listType typeId="96847a55-21b3-44cd-aff5-c4bd11328d30" valueTypeId="a09afd13-8e2e-442e-8d05-f94c0749553f"/>
+    <managerType typeId="c4af3427-ac87-4d5e-9177-e10b3996a82d" valueTypeId="ffc82b6e-194b-4551-b06b-9f1f5b633047"/>
+    <recordSetType typeId="c3fc6397-571f-4bae-a874-f6cbf6210d5c" valueTypeId="e6a24d05-a0f9-4701-9dfa-e02abc2c1a4a"/>
+    <recordKeyType typeId="6564643c-375a-47e9-8146-56df51b31b5c" valueTypeId="fc8d54e5-c5b7-4680-ac59-e4f69df7f06a"/>
+    <recordType typeId="10dec2cf-2492-4bf3-aae5-4dfc2e1b931b" valueTypeId="a2f0cadc-cf80-4eb3-aba5-924054c82d57"/>
+    <recordManagerType typeId="ad2af4db-f106-4ebb-b877-6fab81666c4e" valueTypeId="a40450dd-2cad-480a-970e-09cfce5e0b1c"/>
+  </producedTypes>
+  <name>Деревья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деревья</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Деревья.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3ef1816e-d8fe-45f0-8aef-fcd70f3a5d64">
+    <name>РодительСтрокиДереваУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель строки дерева УИД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8cca9349-0cb5-4ae3-ba1f-c4772efbf83b">
+    <name>ВерсияДерева</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия дерева</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6d265df4-392a-4b5c-a7db-14426d8fc3f4">
+    <name>СтрокаДереваУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка дерева УИД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ffde2c31-df07-43e7-856c-c39db26fb255">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

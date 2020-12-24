@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac06f8fd-fa44-4405-aa85-a303961eec15">
+  <name>БНСП_Администратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>БНСП администратор</value>
+  </synonym>
+</mdclass:Role>

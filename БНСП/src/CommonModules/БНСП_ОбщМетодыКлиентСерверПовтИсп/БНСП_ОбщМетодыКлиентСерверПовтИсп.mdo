@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="605a36ec-0ae4-4ddf-b379-ceb8cadd77f2">
+  <name>БНСП_ОбщМетодыКлиентСерверПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие методы клиент сервер (БНСП)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

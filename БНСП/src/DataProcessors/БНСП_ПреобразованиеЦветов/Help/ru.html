@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html><head><meta http-equiv="content-type" content="text/html;charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="v8help://service_book/service_style"></link></head><body>
+<div>
+<div><font face="Courier New">///////////////////////////////////////////////////////////////////////////////////////////////////</font></div>
+<div><font face="Courier New">//                                                                                               //</font></div>
+<div><font face="Courier New">//  Общие сведения:                                                                              //</font></div>
+<div><font face="Courier New">//  Разработчик: Табаков Павел Е.                                                                //</font></div>
+<div><font face="Courier New">//  Страница разработчика: https://infostart.ru/profile/1019160/                                 //</font></div>
+<div><font face="Courier New">//  Страница публикации: https://infostart.ru/public/1278131/</font><span style="font-family: &quot;Courier New&quot;;">                                    //</span></div>
+<div><font face="Courier New">//  Протестировано на платформе 1С версии 8.3.16.1148                                            //</font></div>
+<div><font face="Courier New">//  Предназначено для использования в любой базе данных 1С.                                      //</font></div>
+<div><font face="Courier New">//                                                                                               //</font></div>
+<div><font face="Courier New">///////////////////////////////////////////////////////////////////////////////////////////////////</font></div>
+<div><font face="Courier New">//                                                                                               //</font></div>
+<div><font face="Courier New">//  Цель:                                                                                        //</font></div>
+<div><font face="Courier New">//  Данная обработка предназначена для демонстрации алгоритма преобразования цвета из одного     //</font></div>
+<div><font face="Courier New">//  вида в другой.                                                                               //</font></div>
+<div><font face="Courier New">//                                                                                               //</font></div>
+<div><font face="Courier New">///////////////////////////////////////////////////////////////////////////////////////////////////</font></div>
+<div><font face="Courier New">//                                                                                               //</font></div>
+<div><font face="Courier New">//  Возможности:                                                                                 //</font></div>
+<div><font face="Courier New">//  Преобразование цвета любого вида в цвет любого другого вида при помощи следующих методов:    //</font></div>
+<div><font face="Courier New">//  - ОпределитьАбсолютныйЦвет(Цвет) - преобразует переданный цвет любого вида в абсолютный      //</font></div>
+<div><font face="Courier New">//    цвет;                                                                                      //</font></div>
+<div><font face="Courier New">//  - НайтиWebЦвет(Цвет) - ищет переданный цвет любого вида среди набора WebЦвета;               //</font></div>
+<div><font face="Courier New">//  - НайтиЦветСтиля(Цвет) - ищет переданный цвет любого вида среди набора ЦветаСтиля;           //</font></div>
+<div><font face="Courier New">//  - НайтиWindowsЦвет(Цвет) - ищет переданный цвет любого вида среди набора WindowsЦвета.       //</font></div>
+<div><font face="Courier New">//                                                                                               //</font></div>
+<div><font face="Courier New">///////////////////////////////////////////////////////////////////////////////////////////////////</font></div>
+<div><font face="Courier New">//                                                                                               //</font></div>
+<div><font face="Courier New">//  Описание:                                                                                    //</font></div>
+<div><font face="Courier New">//  Основной принцип преобразования цветов из одного вида в другой в данной обработке            //</font></div>
+<div><font face="Courier New">//  заключается в использовании методов ЗначениеВСтрокуВнутр() и ЗначениеИзСтрокиВнутр().        //</font></div>
+<div><font face="Courier New">//  Так, например, внутренние значения цветов WebЦвета.Белый и WebЦвета.Черный соответственно    //</font></div>
+<div><font face="Courier New">//  выглядят следующи образом:                                                                   //</font></div>
+<div><font face="Courier New">//     {"#",9cd510c7-abfc-11d4-9434-004095e12fc7,2,{3,2,{143}}}                                  //</font></div>
+<div><font face="Courier New">//     {"#",9cd510c7-abfc-11d4-9434-004095e12fc7,2,{3,2,{8}}}                                    //</font></div>
+<div><font face="Courier New">//  Как видно, в структуре полученных данных содержится внутренний индекс цвета: 143 - для       //</font></div>
+<div><font face="Courier New">//  белого цвета, и 8 - для черного цвета. Опытным путем было обнаружено, что для каждой         //</font></div>
+<div><font face="Courier New">//  коллекции существует свой диапазон внутренних индексов:                                      //</font></div>
+<div><font face="Courier New">//  - WebЦвета: от 1 до 146                                                                      //</font></div>
+<div><font face="Courier New">//  - ЦветаСтиля: от -1 до -47 (значения цветов для некоторых индексов оказались пустыми)        //</font></div>
+<div><font face="Courier New">//  - WindowsЦвета: от -2 до 28 (кроме 25)                                                       //</font></div>
+<div><font face="Courier New">//  Таким образом, зная внутренний индекс цвета можно получить цвет из любого набора путем       //</font></div>
+<div><font face="Courier New">//  подстановки этого индекста во внутреннюю строку, например, внутренний индекс желтого цвета   //</font></div>
+<div><font face="Courier New">//  для набора WebЦвета равен 145, следовательно внутренняя строка имеет вид:                    //</font></div>
+<div><font face="Courier New">//     ВнутренняяСтрока = "{""#"",9cd510c7-abfc-11d4-9434-004095e12fc7,2,{3,2,{" + 145 + "}}}";  //</font></div>
+<div><font face="Courier New">//  Теперь, чтобы получить цвет набора WebЦвета необходимо воспользоваться методом               //</font></div>
+<div><font face="Courier New">//  ЗначениеИзСтрокиВнутр():                                                                     //</font></div>
+<div><font face="Courier New">//        ЖелтыйЦвет = ЗначениеИзСтрокиВнутр(ВнутренняяСтрока);                                  //</font></div>
+<div><font face="Courier New">//  В результате в переменной "ЖелтыйЦвет" будет содержаться значение WebЦвета.Желтый.           //</font></div>
+<div><font face="Courier New">//  Аналогичным образом получаются цвета для других наборов (ЦветаСтиля и WindowsЦвета).         //</font></div>
+<div><font face="Courier New">//                                                                                               //</font></div>
+<div><font face="Courier New">///////////////////////////////////////////////////////////////////////////////////////////////////</font></div></div>
+
+
+</body></html>

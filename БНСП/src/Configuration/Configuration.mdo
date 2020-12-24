@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce658872-c465-40a9-8e3b-1bf38c62caf4">
+  <name>БиблиотекаНестандартныхПодсистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека нестандартных подсистем</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="28938692-96fd-4fa0-87c4-b6f7077773b7"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="bd5b42b8-fa4c-4e7a-a3dd-81f99d13b07d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d2d2da59-3cd4-4486-9ebb-c2cde8f34021"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="88c3f0a2-13d1-4007-b13e-be8482b33043"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b8dddc53-43ec-4935-a826-fc483a325bad"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e28d73dd-29fa-4d49-a643-4012f5af163b"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d68694e7-c707-4ce5-934f-7dd9f7469e01"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.1.1</version>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
+  <languages uuid="b4b566d1-4056-45ae-8f1a-dc910d152c22">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Russian</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <languages uuid="0633dc32-c1cd-48dd-bed8-a8de85f1ab9a">
+    <name>Английский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Английский</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <commonPictures>CommonPicture.КартинкаКнопкиСворачивания</commonPictures>
+  <commonPictures>CommonPicture.КартинкаЗадачи</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка3</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка4</commonPictures>
+  <commonPictures>CommonPicture.КрасныйКвадрат</commonPictures>
+  <roles>Role.БНСП_Администратор</roles>
+  <commonModules>CommonModule.БНСП_ОбщМетоды</commonModules>
+  <commonModules>CommonModule.БНСП_ОбщМетодыВызовСервера</commonModules>
+  <commonModules>CommonModule.БНСП_ОбщМетодыКлиент</commonModules>
+  <commonModules>CommonModule.БНСП_ОбщМетодыКлиентСервер</commonModules>
+  <commonModules>CommonModule.БНСП_ОбщМетодыКлиентСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.БНСП_СлужМетоды</commonModules>
+  <commonModules>CommonModule.БНСП_РедакторWYSIWYG</commonModules>
+  <commonModules>CommonModule.БНСП_РедакторWYSIWYGКлиент</commonModules>
+  <commonModules>CommonModule.БНСП_РедакторWYSIWYGКлиентСервер</commonModules>
+  <reports>Report.Отчет1</reports>
+  <dataProcessors>DataProcessor.БНСП_ВыборЦвета</dataProcessors>
+  <dataProcessors>DataProcessor.БНСП_РедакторWYSIWYG</dataProcessors>
+  <dataProcessors>DataProcessor.БНСП_ПреобразованиеЦветов</dataProcessors>
+  <informationRegisters>InformationRegister.Деревья</informationRegisters>
+</mdclass:Configuration>

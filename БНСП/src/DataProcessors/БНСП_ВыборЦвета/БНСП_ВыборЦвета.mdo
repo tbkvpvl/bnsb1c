@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a75cd3ac-baad-402b-bbd5-f77e92ff1590">
+  <producedTypes>
+    <objectType typeId="a4c3e98d-f3ad-4149-8e48-f4604132b846" valueTypeId="64202a8e-672f-4b9b-a17c-348b7cc04519"/>
+    <managerType typeId="0163a667-392f-40fe-abb1-be4bc8d3d264" valueTypeId="b237ba6c-5864-4ec0-9674-88112d91191e"/>
+  </producedTypes>
+  <name>БНСП_ВыборЦвета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор цвета (БНСП)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БНСП_ВыборЦвета.Form.ФормаТеста</defaultForm>
+  <forms uuid="07e6be46-82ba-47ee-b04d-31921de1014a">
+    <name>ФормаВыбораЦвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора цвета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9212c412-d437-426e-82ac-02ed5f25aebe">
+    <name>ФормаТеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма теста</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1b4c1234-28eb-48f8-bfb3-84338134c163">
+    <name>ПалитраСтандартная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартная</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Standart</value>
+    </synonym>
+  </templates>
+  <templates uuid="e4910cd3-4617-4483-aa70-96c1d99ecdde">
+    <name>ПалитраRALClassic</name>
+    <synonym>
+      <key>ru</key>
+      <value>RAL Classic</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>RAL Classic</value>
+    </synonym>
+  </templates>
+  <templates uuid="d0198727-2279-48f2-80a7-2803d6db2aa3">
+    <name>ПалитраRALDesign</name>
+    <synonym>
+      <key>ru</key>
+      <value>RAL Design</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>RAL Design</value>
+    </synonym>
+  </templates>
+  <templates uuid="3defce2a-624d-4ce0-8f82-5f298d07f886">
+    <name>ПалитраRALEffect</name>
+    <synonym>
+      <key>ru</key>
+      <value>RAL Effect</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>RAL Effect</value>
+    </synonym>
+  </templates>
+  <templates uuid="f1fc64d7-7fa6-4c51-80cd-1da469da58dc">
+    <name>ПалитраNCS1950</name>
+    <synonym>
+      <key>ru</key>
+      <value>NCS 1950</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>NCS 1950</value>
+    </synonym>
+  </templates>
+  <templates uuid="7936d2e3-b06a-43a2-bf65-5efa8141abef">
+    <name>ПалитраPantone</name>
+    <synonym>
+      <key>ru</key>
+      <value>Pantone</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Pantone</value>
+    </synonym>
+  </templates>
+  <templates uuid="3cd3af2b-d642-4e66-87e9-81f3c541823e">
+    <name>ПалитраПустышка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пустышка (для тестов)</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

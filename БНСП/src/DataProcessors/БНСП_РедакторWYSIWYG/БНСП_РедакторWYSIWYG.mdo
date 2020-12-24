@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edf1f587-d006-44f8-80f4-ec41bbfc6c4c">
+  <producedTypes>
+    <objectType typeId="7dd31dea-c1ad-4f1c-b1ad-77cda1b4f06a" valueTypeId="12342f78-a596-4623-b780-9ddab2aa2f66"/>
+    <managerType typeId="51ca55bd-61dc-4b70-9d4d-f63a5a56faa4" valueTypeId="7f89cabe-02ca-41cd-aad4-e81f6b599566"/>
+  </producedTypes>
+  <name>БНСП_РедакторWYSIWYG</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор WYSIWYG (БНСП)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БНСП_РедакторWYSIWYG.Form.Форма</defaultForm>
+  <forms uuid="7431670d-983b-4507-baf1-294d5f3339fd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

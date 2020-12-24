@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f96e6ca5-ccbd-462e-8d5c-b9acc74ec2fd">
+  <name>БНСП_РедакторWYSIWYGКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор WYSIWYG клиент сервер (БНСП)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>
